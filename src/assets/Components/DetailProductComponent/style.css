@@ -1,0 +1,239 @@
+.carousel-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.carousel-item-img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-inner {
+    height: 370px !important;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.carousel-item{
+    overflow: hidden;
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: white;
+    height: 100%;
+}
+
+.carousel-indicators.carousel-sub-img-wrapper{
+    display: flex;
+    position: unset;
+    margin: 0;
+    justify-content: flex-start;
+    z-index: 0;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.carousel-sub-item-img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+
+}
+          
+.carousel-control-prev{
+    height: 100%;
+    display: block;
+}
+
+.btn-sub-image-slider{
+    width: 42px !important;
+    height: 42px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    border: 1px !important;
+    border-style: solid !important;
+    border-color: #ceced2 !important;
+    border-radius: 3px;
+    margin: 10px 0 !important;
+}
+
+
+
+.pd-special-item{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.pd-special-item__icon{
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}
+.pd-special-item__content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+}
+
+.pd-special-more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pd-special-more__icon{
+    width: 24px;
+    height: 24px;
+}
+.pd-special-more__text{
+    text-wrap: nowrap;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+}
+
+.pd-special-more__text > span{
+    color: #808089;
+}
+
+.pd-special-more__arrow{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.pd-special-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A
+}
+
+
+.pd-buy-infor__title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.pd-buy-infor__quantity{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.btn-quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #C4C4CF4D;
+    border-radius: 4px;
+}
+
+.input-buy-quantity{
+    height: 34px;
+    display: block;
+    outline: none;
+    width: 40px;
+    border: 1px solid #C4C4CF4D;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.disabled{
+    opacity: 0.6;
+    cursor: default !important;
+}
+
+.pd-buy-infor__temporary{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+}
+
+.pd-buy-infor__price span{
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    display: inline-block;
+}
+
+.pd-buy-infor__price span::before{
+    position: absolute;
+    content: "đ";
+    top: -5px;
+    right: -15px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pd-buy-infor__func-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pd-buy-infor__func-wrapper > *{
+    width: 100%;
+    border-radius: 4px;
+    height: 42px;
+    border: 1px solid #0A68FF;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0A68FF;
+}
+
+.btn-buy{
+    background-color: #FF424E !important;
+    color: #FFFFFF !important;
+    border:none !important;
+}
+
+.pd-content-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+    margin: 10px 0;
+}

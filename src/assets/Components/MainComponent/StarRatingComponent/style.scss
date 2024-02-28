@@ -1,0 +1,32 @@
+:root {
+    --star-size: 16px;
+    --star-color: #b8b8b8;
+    --star-background: #fc0;
+}
+
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times; // make sure ★ appears correctly
+    line-height: 1;
+    
+    &::before {
+      content: '★★★★★';
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    span{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #242424;
+        font-family: var(--bs-body-font-family);
+    }
+  }

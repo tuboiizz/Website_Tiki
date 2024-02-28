@@ -1,0 +1,172 @@
+.pd-information-wrapper{
+    margin-bottom: 30px;
+}
+
+.pd-information-first{
+
+}
+
+.pd-authentic__icon{
+    width: 89px;
+    object-fit: contain;
+}
+
+.pd-author-title{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242424;
+    margin-right: 10px;
+}
+
+.pd-author-list{
+    display: flex;
+    gap: 10px;
+}
+
+.pd-author-list li a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D5CB6;
+    position: relative;
+}
+
+.pd-author-list li a:before{
+    content: ",";
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    top: 0;
+    right: -4px;
+}
+
+.pd-author-list li:last-child a::before{
+    display: none;
+}
+
+.pd-infor__name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#27272A;
+}
+
+.pd-infor__rating-average{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+
+}
+
+.pd-infor__rating-star{
+
+}
+
+.pd-infor__number-sold,
+.pd-infor__number-rating{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+}
+
+
+
+.pd-infor__price{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+    position: relative;
+}
+
+.pd-infor__price::before{
+    content: "đ";
+    position: absolute;
+    top: -4px;
+    right: -14px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+}
+
+
+.pd-infor__discount{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+    background-color: #F5F5FA;
+    padding: 2px 5px;
+    border-radius: 8px;
+}
+
+.pd-infor__number-sold{
+    position: relative;
+}
+
+.pd-infor__number-sold::before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    top: 6px;
+    left: -8px;
+    background-color: #C7C7C7;
+}
+
+.pd-des__title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+    margin-bottom: 10px;
+}
+
+.pd-des__item{
+    padding: 8px 0;
+    border-bottom: 1px solid #EBEBF0;
+}
+
+.pd-des__item:last-child{
+    border: none;
+}
+
+.pd-des__item-name{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#808089;
+}
+
+.pd-des__item-value{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272A;
+}
+

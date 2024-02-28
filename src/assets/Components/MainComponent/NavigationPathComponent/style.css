@@ -1,0 +1,39 @@
+.list-navigation{
+    padding: 10px;
+}
+
+.nav-item{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    display: block;
+    color: #38383D;
+}
+
+.list-navigation > li:first-child > a{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808089;
+}
+
+.nav-item:before{
+    content: "";
+    position: absolute;
+    border: solid #808089;
+    border-width: 0px 1px 1px 0px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    top: 39%;
+    left: -25%;
+}
+
+.list-navigation > li:first-child > a::before{
+    display: none;
+}
